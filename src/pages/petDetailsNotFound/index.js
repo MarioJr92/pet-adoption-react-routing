@@ -9,7 +9,7 @@ const PetDetailsNotFound = () => {
   const goBack = () => {
     // Go back!
   }
-  
+
   return (
     <main className="page">
       <h3>404: Who let the dogs out?</h3>
