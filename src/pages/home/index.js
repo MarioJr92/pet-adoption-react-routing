@@ -2,7 +2,8 @@ import React, { useEffect, useState } from 'react';
 import { getPets } from '../../api/petfinder';
 import Hero from '../../components/hero';
 import Pet from '../../components/pet';
-import { useParams } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
+
 
 const HomePage = () => {
   const [data, setData] = useState(null);
