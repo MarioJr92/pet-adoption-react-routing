@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Pet Adoption React Routing Program
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a pet adoption program built using React Router. The program includes four pages that allow users to search for and view details on pets available for adoption.
 
-## Available Scripts
+## Pages
 
-In the project directory, you can run:
+### Home Page
 
-### `yarn start`
+The Home Page is the starting point of the application. The page displays a list of pets available for adoption based on the type of pet (e.g., dog, cat, rabbit) selected by the user. Users can click on any pet to view more details. If no pets are available for the selected type, a message is displayed to indicate that no pets are currently available.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Pet Details Page
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+The Pet Details Page displays detailed information about a selected pet, including the pet's name, breed, color, gender, and description. The page also includes an image of the pet. If the pet details are not available, users are redirected to the Pet Details Not Found Page.
 
-### `yarn test`
+### Pet Details Not Found Page
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The Pet Details Not Found Page is displayed when the details for a pet are not available. Users are encouraged to check back later and are provided with a button to go back to the previous page.
 
-### `yarn build`
+### Search Page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The Search Page allows users to search for pets by name. The page displays a list of pets that match the search term entered by the user.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## How to Run the Program
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+To run the program, clone the repository and run `npm install` to install the necessary dependencies. Then, run `npm start` to start the development server.
